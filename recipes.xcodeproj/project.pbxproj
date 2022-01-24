@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6022A91F27966CC700C35920 /* ServerManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6022A91E27966CC700C35920 /* ServerManger.swift */; };
-		6022A92027966CC700C35920 /* ServerManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6022A91E27966CC700C35920 /* ServerManger.swift */; };
+		6022A91F27966CC700C35920 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6022A91E27966CC700C35920 /* ServerManager.swift */; };
+		6022A92027966CC700C35920 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6022A91E27966CC700C35920 /* ServerManager.swift */; };
 		6022A92827967C9700C35920 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6022A92727967C9700C35920 /* RecipesView.swift */; };
 		6022A92927967C9700C35920 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6022A92727967C9700C35920 /* RecipesView.swift */; };
 		6022A92B2796888A00C35920 /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6022A92A2796888A00C35920 /* RecipeDetails.swift */; };
@@ -21,11 +21,11 @@
 		60939F3B278BD75800CB823A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60939F28278BD75800CB823A /* Assets.xcassets */; };
 		60939F46278BD8A500CB823A /* onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60939F45278BD8A500CB823A /* onboarding.swift */; };
 		60DAADCE278C061500706413 /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DAADCD278C061500706413 /* mainView.swift */; };
-		60DAADD0278C126E00706413 /* DataModale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DAADCF278C126E00706413 /* DataModale.swift */; };
+		60DAADD0278C126E00706413 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DAADCF278C126E00706413 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6022A91E27966CC700C35920 /* ServerManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManger.swift; sourceTree = "<group>"; };
+		6022A91E27966CC700C35920 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
 		6022A92727967C9700C35920 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
 		6022A92A2796888A00C35920 /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
 		60939F26278BD75800CB823A /* recipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesApp.swift; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		60939F35278BD75800CB823A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		60939F45278BD8A500CB823A /* onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboarding.swift; sourceTree = "<group>"; };
 		60DAADCD278C061500706413 /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
-		60DAADCF278C126E00706413 /* DataModale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModale.swift; sourceTree = "<group>"; };
+		60DAADCF278C126E00706413 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				60939F26278BD75800CB823A /* recipesApp.swift */,
-				60DAADCF278C126E00706413 /* DataModale.swift */,
-				6022A91E27966CC700C35920 /* ServerManger.swift */,
+				60DAADCF278C126E00706413 /* DataModel.swift */,
+				6022A91E27966CC700C35920 /* ServerManager.swift */,
 				60939F27278BD75800CB823A /* ContentView.swift */,
 				60939F44278BD88B00CB823A /* Screens */,
 				60939F28278BD75800CB823A /* Assets.xcassets */,
@@ -211,10 +211,10 @@
 			files = (
 				60939F38278BD75800CB823A /* ContentView.swift in Sources */,
 				60DAADCE278C061500706413 /* mainView.swift in Sources */,
-				6022A91F27966CC700C35920 /* ServerManger.swift in Sources */,
+				6022A91F27966CC700C35920 /* ServerManager.swift in Sources */,
 				60939F46278BD8A500CB823A /* onboarding.swift in Sources */,
 				6022A92B2796888A00C35920 /* RecipeDetails.swift in Sources */,
-				60DAADD0278C126E00706413 /* DataModale.swift in Sources */,
+				60DAADD0278C126E00706413 /* DataModel.swift in Sources */,
 				60939F36278BD75800CB823A /* recipesApp.swift in Sources */,
 				6022A92827967C9700C35920 /* RecipesView.swift in Sources */,
 			);
@@ -228,7 +228,7 @@
 				60939F37278BD75800CB823A /* recipesApp.swift in Sources */,
 				6022A92927967C9700C35920 /* RecipesView.swift in Sources */,
 				6022A92C2796888A00C35920 /* RecipeDetails.swift in Sources */,
-				6022A92027966CC700C35920 /* ServerManger.swift in Sources */,
+				6022A92027966CC700C35920 /* ServerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,3 +11,4 @@
 * Search bar to look up recipes
 * Pagination
 * Utilizing the new AsyncImage introduced in IOS 15
+* Utilizing AVkit
